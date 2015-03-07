@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            CommentDetail
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="CommentDetail" id="CommentDetail"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader1 -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader1" id="CommentDetail_mobileheader1" class="CommentDetail_mobileheader1">
+                <h1 dsid="mobileheader1">
+                    Comment
+                </h1>
+                <!-- showmenue --><!--
+                --><a data-role="button" name="showmenue" dsid="showmenue" class="CommentDetail_showmenue ui-btn-left"
+                style='min-height:20px; ' id="CommentDetail_showmenue" data-corners="false" data-icon="bars"
+                data-iconpos="notext" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="b" tabindex="2">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="CommentDetail_mobilecontainer1" name="mobilecontainer1"
+            class="CommentDetail_mobilecontainer1 ui-content" dsid="mobilecontainer1" data-theme="b">
+                <link href="CommentDetail.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="CommentDetail.js">
+                </script>
+                <!-- mobileworkarea_10 -->
+                <div class="CommentDetail_mobileworkarea_10 CommentDetail_mobileworkarea_10">
+                    <!-- _id -->
+                    <div id="CommentDetail__id" class="tiggzi-mobiletemplate CommentDetail__id" dsid="_id"
+                    tiggzitype="mobiletemplate" apperytype="mobiletemplate">
+                        <!-- _id_Layout -->
+                        <div class="CommentDetail__id_Layout_wrapper" data-wrapper-for="_id_Layout">
+                            <table id="CommentDetail__id_Layout" class="CommentDetail__id_Layout" dsid="_id_Layout"
+                            name="_id_Layout" cellpadding=0 cellspacing=0>
+                                <col style="width:117px;" />
+                                <col style="width:auto;" />
+                                <tr class="CommentDetail__id_Layout_row_0">
+                                    <!-- _id_leftcell -->
+                                    <td id="CommentDetail__id_leftcell" name="_id_leftcell" class="CommentDetail__id_leftcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- _id_FieldName -->
+                                            <div name="_id_FieldName" id="CommentDetail__id_FieldName" dsid="_id_FieldName"
+                                            data-role="appery_label" class="CommentDetail__id_FieldName">
+                                                _id
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- _id_rightcell -->
+                                    <td id="CommentDetail__id_rightcell" name="_id_rightcell" class="CommentDetail__id_rightcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- _id_FieldValue -->
+                                            <div data-role="fieldcontain" class="CommentDetail__id_FieldValue ">
+                                                <input type="text" name="_id_FieldValue" dsid="_id_FieldValue" value="{{FieldValue}}"
+                                                placeholder="" id="CommentDetail__id_FieldValue" tabindex="4" multiple data-theme="b"
+                                                class="CommentDetail__id_FieldValue" />
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Message -->
+                    <div id="CommentDetail_Message" class="tiggzi-mobiletemplate CommentDetail_Message"
+                    dsid="Message" tiggzitype="mobiletemplate" apperytype="mobiletemplate">
+                        <!-- Message_Layout -->
+                        <div class="CommentDetail_Message_Layout_wrapper" data-wrapper-for="Message_Layout">
+                            <table id="CommentDetail_Message_Layout" class="CommentDetail_Message_Layout" dsid="Message_Layout"
+                            name="Message_Layout" cellpadding=0 cellspacing=0>
+                                <col style="width:117px;" />
+                                <col style="width:auto;" />
+                                <tr class="CommentDetail_Message_Layout_row_0">
+                                    <!-- Message_leftcell -->
+                                    <td id="CommentDetail_Message_leftcell" name="Message_leftcell" class="CommentDetail_Message_leftcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- Message_FieldName -->
+                                            <div name="Message_FieldName" id="CommentDetail_Message_FieldName" dsid="Message_FieldName"
+                                            data-role="appery_label" class="CommentDetail_Message_FieldName">
+                                                Message
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- Message_rightcell -->
+                                    <td id="CommentDetail_Message_rightcell" name="Message_rightcell" class="CommentDetail_Message_rightcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- Message_FieldValue -->
+                                            <div data-role="fieldcontain" class="CommentDetail_Message_FieldValue ">
+                                                <input type="text" name="Message_FieldValue" dsid="Message_FieldValue" value="{{FieldValue}}"
+                                                placeholder="" id="CommentDetail_Message_FieldValue" tabindex="4" multiple data-theme="b"
+                                                class="CommentDetail_Message_FieldValue" />
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Author -->
+                    <div id="CommentDetail_Author" class="tiggzi-mobiletemplate CommentDetail_Author"
+                    dsid="Author" tiggzitype="mobiletemplate" apperytype="mobiletemplate">
+                        <!-- Author_Layout -->
+                        <div class="CommentDetail_Author_Layout_wrapper" data-wrapper-for="Author_Layout">
+                            <table id="CommentDetail_Author_Layout" class="CommentDetail_Author_Layout" dsid="Author_Layout"
+                            name="Author_Layout" cellpadding=0 cellspacing=0>
+                                <col style="width:117px;" />
+                                <col style="width:auto;" />
+                                <tr class="CommentDetail_Author_Layout_row_0">
+                                    <!-- Author_leftcell -->
+                                    <td id="CommentDetail_Author_leftcell" name="Author_leftcell" class="CommentDetail_Author_leftcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- Author_FieldName -->
+                                            <div name="Author_FieldName" id="CommentDetail_Author_FieldName" dsid="Author_FieldName"
+                                            data-role="appery_label" class="CommentDetail_Author_FieldName">
+                                                Author
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- Author_rightcell -->
+                                    <td id="CommentDetail_Author_rightcell" name="Author_rightcell" class="CommentDetail_Author_rightcell"
+                                    colspan=1 rowspan=1>
+                                        <div class="cell-wrapper">
+                                            <!-- Author_FieldValue -->
+                                            <div data-role="fieldcontain" class="CommentDetail_Author_FieldValue ">
+                                                <input type="text" name="Author_FieldValue" dsid="Author_FieldValue" value="{{FieldValue}}"
+                                                placeholder="" id="CommentDetail_Author_FieldValue" tabindex="4" multiple data-theme="b"
+                                                class="CommentDetail_Author_FieldValue" />
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- actionbuttons -->
+                    <div data-role="controlgroup" name="actionbuttons" id="CommentDetail_actionbuttons"
+                    dsid="actionbuttons" class="CommentDetail_actionbuttons">
+                        <!-- savebutton --><!--
+                        --><a data-role="button" name="savebutton" dsid="savebutton" class="CommentDetail_savebutton"
+                        id="CommentDetail_savebutton" data-corners="true" data-icon="check" data-iconpos="left"
+                        x-apple-data-detectors="false" data-theme="b" tabindex="5" reRender='actionbuttons'>
+                        Save
+                        </a><!--
+                        --><!-- cancelbutton --><!--
+                        --><a data-role="button" name="cancelbutton" dsid="cancelbutton" class="CommentDetail_cancelbutton"
+                        id="CommentDetail_cancelbutton" data-corners="true" data-icon="back" data-iconpos="left"
+                        x-apple-data-detectors="false" data-theme="b" tabindex="5" reRender='actionbuttons'>
+                        Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class="CommentDetail_mobilefooter1"
+            name="mobilefooter1" dsid="mobilefooter1" id="CommentDetail_mobilefooter1" data-theme="b">
+                <!-- mobileworkarea_12 -->
+                <div class="CommentDetail_mobileworkarea_12 CommentDetail_mobileworkarea_12">
+                </div>
+            </div>
+            <!-- NavigationPanel -->
+            <div data-role="panel" tabindex="-1" data-position="left" data-display="overlay"
+            id="CommentDetail_NavigationPanel" class="CommentDetail_NavigationPanel" name="NavigationPanel"
+            dsid="NavigationPanel" data-theme="b">
+                <!-- NavigationMenu -->
+                <ul data-role="listview" id="CommentDetail_NavigationMenu" class="CommentDetail_NavigationMenu"
+                name="NavigationMenu" dsid="NavigationMenu" data-inset="true" data-theme="b" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- NavigationComment -->
+                    <li class="CommentDetail_NavigationComment" data-icon="carat-r">
+                        <a id="CommentDetail_NavigationComment" name="NavigationComment" dsid="NavigationComment"
+                        tabindex="1" class="CommentDetail_NavigationComment">
+                        <h3>Comment</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

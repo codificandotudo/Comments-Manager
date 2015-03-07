@@ -1,0 +1,223 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* showmenue */
+#CommentDetail_showmenue {
+
+}
+.ui-btn.CommentDetail_showmenue {
+
+}
+/* mobilecontainer1 */
+.ui-content.CommentDetail_mobilecontainer1 {
+	padding: 15px 15px 15px 15px;
+}
+/* mobileworkarea_10*/
+.CommentDetail_mobileworkarea_10 {
+	background-color: transparent;
+	padding: 0px;
+}
+/* _id */
+.CommentDetail__id {
+	margin: 0px 0px 0px 0px;
+}
+/* _id_Layout */
+.CommentDetail__id_Layout {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CommentDetail__id_Layout_wrapper {
+
+}
+.CommentDetail__id_Layout > tr > td {
+	vertical-align: top;
+}
+.CommentDetail__id_Layout_row_0, .CommentDetail__id_Layout_row_0 > td {
+	height: 30px
+}
+/* _id_leftcell */
+.CommentDetail__id_leftcell {
+	height:30px !important;
+	width:113px;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail__id_leftcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* _id_FieldName */
+.CommentDetail__id_FieldName {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* _id_rightcell */
+.CommentDetail__id_rightcell {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail__id_rightcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* _id_FieldValue */
+.CommentDetail__id_FieldValue {
+	margin: 4px 0px 4px 0px;
+}
+/* Message */
+.CommentDetail_Message {
+	margin: 0px 0px 0px 0px;
+}
+/* Message_Layout */
+.CommentDetail_Message_Layout {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CommentDetail_Message_Layout_wrapper {
+
+}
+.CommentDetail_Message_Layout > tr > td {
+	vertical-align: top;
+}
+.CommentDetail_Message_Layout_row_0, .CommentDetail_Message_Layout_row_0 > td {
+	height: 30px
+}
+/* Message_leftcell */
+.CommentDetail_Message_leftcell {
+	height:30px !important;
+	width:113px;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail_Message_leftcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Message_FieldName */
+.CommentDetail_Message_FieldName {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Message_rightcell */
+.CommentDetail_Message_rightcell {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail_Message_rightcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Message_FieldValue */
+.CommentDetail_Message_FieldValue {
+	margin: 4px 0px 4px 0px;
+}
+/* Author */
+.CommentDetail_Author {
+	margin: 0px 0px 0px 0px;
+}
+/* Author_Layout */
+.CommentDetail_Author_Layout {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.CommentDetail_Author_Layout_wrapper {
+
+}
+.CommentDetail_Author_Layout > tr > td {
+	vertical-align: top;
+}
+.CommentDetail_Author_Layout_row_0, .CommentDetail_Author_Layout_row_0 > td {
+	height: 30px
+}
+/* Author_leftcell */
+.CommentDetail_Author_leftcell {
+	height:30px !important;
+	width:113px;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail_Author_leftcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Author_FieldName */
+.CommentDetail_Author_FieldName {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Author_rightcell */
+.CommentDetail_Author_rightcell {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.CommentDetail_Author_rightcell > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Author_FieldValue */
+.CommentDetail_Author_FieldValue {
+	margin: 4px 0px 4px 0px;
+}
+/* actionbuttons */
+.ui-controlgroup.CommentDetail_actionbuttons {
+	margin: 4px 5px 4px 5px;
+}
+.ui-controlgroup.CommentDetail_actionbuttons .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* savebutton */
+#CommentDetail_savebutton {
+
+}
+.ui-btn.CommentDetail_savebutton {
+
+}
+/* cancelbutton */
+#CommentDetail_cancelbutton {
+
+}
+.ui-btn.CommentDetail_cancelbutton {
+
+}
+/* mobilefooter1 */
+.CommentDetail_mobilefooter1 {
+	min-height:38px;
+}
+/* mobileworkarea_12*/
+.CommentDetail_mobileworkarea_12 {
+	background-color: transparent;
+	padding: 0px;
+}
+/* NavigationPanel */
+.CommentDetail_NavigationPanel .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.CommentDetail_NavigationPanel:focus {
+	outline: 0;
+}
+/* NavigationMenu */
+.ui-page .CommentDetail_NavigationMenu {
+	margin: 4px 0px 0px 0px;
+}
+/* NavigationComment */
+/* navigateToCommentMaster */
+.CommentDetail_navigateToCommentMaster {
+
+}

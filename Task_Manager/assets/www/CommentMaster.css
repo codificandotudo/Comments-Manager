@@ -1,0 +1,110 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* showmenue */
+#CommentMaster_showmenue {
+
+}
+.ui-btn.CommentMaster_showmenue {
+
+}
+/* mobilecontainer1 */
+.ui-content.CommentMaster_mobilecontainer1 {
+	padding: 15px 15px 15px 15px;
+}
+/* mobileworkarea_10*/
+.CommentMaster_mobileworkarea_10 {
+	background-color: transparent;
+	padding: 0px;
+}
+/* CommentSearchInput */
+.CommentMaster_CommentSearchInput {
+	margin: 4px 0px 4px 0px;
+}
+#CommentMaster_CommentSearchInput-cover-div {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	margin: 9px 7px 8px 7px;
+	z-index: 9999;
+}
+/* CommentList */
+.ui-page .CommentMaster_CommentList {
+	margin: 4px 0px 0px 0px;
+}
+/* CommentListItem */
+.ui-mobile-viewport ul[data-role="listview"] li.CommentMaster_CommentListItem {
+	padding: 0;
+	margin: 0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CommentMaster_CommentListItem .ui-li-static-container {
+	padding: 0px 0px 4px 0px;
+	padding-right: 41px;
+	padding-left: 0px;
+	min-height: 1em;
+	border-width:0;
+}
+.ui-mobile-viewport ul[data-role="listview"] li.CommentMaster_CommentListItem.ui-icon-none .ui-li-static-container {
+	padding-right: 0px; /* consider nothing */
+}
+/* Message */
+.CommentMaster_Message {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 10px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelistitembutton_13 */
+.CommentMaster_mobilelistitembutton_13 {
+
+}
+/* Author */
+.CommentMaster_Author {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 10px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter1 */
+.CommentMaster_mobilefooter1 {
+	min-height:38px;
+}
+/* mobileworkarea_12*/
+.CommentMaster_mobileworkarea_12 {
+	background-color: transparent;
+	padding: 0px;
+}
+/* CommentActions */
+.CommentMaster_CommentActions {
+
+}
+.CommentMaster_CommentActions .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .CommentMaster_CommentActions ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .CommentMaster_CommentActions ul li:last-child a {
+	margin-right: -1px !important;
+}
+.CommentMaster_CommentActions ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}
+/* NavigationPanel */
+.CommentMaster_NavigationPanel .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.CommentMaster_NavigationPanel:focus {
+	outline: 0;
+}
+/* NavigationMenu */
+.ui-page .CommentMaster_NavigationMenu {
+	margin: 4px 0px 0px 0px;
+}
+/* NavigationComment */
+/* navigateToCommentMaster */
+.CommentMaster_navigateToCommentMaster {
+
+}
